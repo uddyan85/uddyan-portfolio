@@ -1,4 +1,4 @@
-# 🌟 My Portfolio
+# My Portfolio
 
 Welcome to my personal portfolio! This project showcases my work, skills, and projects in a clean and responsive layout. Built with passion and curiosity, it's a window into my journey as a developer.
 
