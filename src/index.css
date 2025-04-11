@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import "tailwindcss";
+
+
+
+body,html{
+    /* font-family: 'poppins', sans-serif; */
+    font-family: "Rubik", sans-serif;
+    /* font-family: "Concert One", sans-serif; */
+    background-color: #190b1f;
+}
+
+h2{
+  @apply text-xl md:text-4xl
+}
+
+p{
+  @apply text-xl tracking-tight leading-relaxed
+}
+
+span{
+  @apply text-orange-500}
+
+.shiny-effect {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(circle, rgba(178, 19, 202, 0.2), transparent);
+}
+
+.bg-primary-color{
+  @apply bg-purple-600
+}
