@@ -72,7 +72,11 @@ const Navbar = () => {
             initial={false}
             animate={nav ? "open" : "closed"}
             variants={menuVariant}
+<<<<<<< HEAD
             className="fixed left-0 top-0 w-full min-h-screen bg-purple-900/20 bg-opacity-70 backdrop-blur-md z-40">
+=======
+            className="fixed left-0 top-0 w-full min-h-screen bg-purple-950 bg-opacity-70 backdrop-blur-md z-40">
+>>>>>>> e74a3e301a124d460b246a91ee346727332c76a2
 
             <ul className="font-semibold text-4xl space-y-10 mt-24 text-center cursor-pointer">
            <li>
